@@ -13,6 +13,9 @@
 		A0A4BD0525C9D2A000086A09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A4BD0425C9D2A000086A09 /* Assets.xcassets */; };
 		A0A4BD0825C9D2A000086A09 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0A4BD0725C9D2A000086A09 /* Preview Assets.xcassets */; };
 		A0A4BD0B25C9D2A000086A09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0A4BD0925C9D2A000086A09 /* LaunchScreen.storyboard */; };
+		A0A4BD1425C9DED700086A09 /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0A4BD1325C9DED700086A09 /* song1.mp3 */; };
+		A0A4BD1725C9DEDF00086A09 /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0A4BD1625C9DEDF00086A09 /* song2.mp3 */; };
+		A0A4BD1A25C9DEE300086A09 /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A0A4BD1925C9DEE300086A09 /* song3.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		A0A4BD0725C9D2A000086A09 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A0A4BD0A25C9D2A000086A09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0A4BD0C25C9D2A000086A09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0A4BD1325C9DED700086A09 /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song1.mp3; path = ../../song1.mp3; sourceTree = "<group>"; };
+		A0A4BD1625C9DEDF00086A09 /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song2.mp3; path = ../../song2.mp3; sourceTree = "<group>"; };
+		A0A4BD1925C9DEE300086A09 /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = song3.mp3; path = ../../song3.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,9 @@
 				A0A4BD0425C9D2A000086A09 /* Assets.xcassets */,
 				A0A4BD0925C9D2A000086A09 /* LaunchScreen.storyboard */,
 				A0A4BD0C25C9D2A000086A09 /* Info.plist */,
+				A0A4BD1325C9DED700086A09 /* song1.mp3 */,
+				A0A4BD1625C9DEDF00086A09 /* song2.mp3 */,
+				A0A4BD1925C9DEE300086A09 /* song3.mp3 */,
 				A0A4BD0625C9D2A000086A09 /* Preview Content */,
 			);
 			path = BasicMusicPlayer;
@@ -133,8 +142,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0A4BD0B25C9D2A000086A09 /* LaunchScreen.storyboard in Resources */,
+				A0A4BD1A25C9DEE300086A09 /* song3.mp3 in Resources */,
 				A0A4BD0825C9D2A000086A09 /* Preview Assets.xcassets in Resources */,
 				A0A4BD0525C9D2A000086A09 /* Assets.xcassets in Resources */,
+				A0A4BD1425C9DED700086A09 /* song1.mp3 in Resources */,
+				A0A4BD1725C9DEDF00086A09 /* song2.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

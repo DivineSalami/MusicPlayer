@@ -6,11 +6,56 @@
 //
 
 import SwiftUI
+import AVKit
 
 struct ContentView: View {
+    // Implicitly Unwrapped Optional
+    @State var audioPlayer: AVAudioPlayer!
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            HStack {
+                Text("⚉ Music")
+                    .font(.system(size: 45))
+                    .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                    .bold()
+                    .foregroundColor(.red)
+                    
+            }
+            HStack {
+                Button(action: {
+                    audioPlayer.play()
+                }) {
+                    Text("🍤")
+                        .font(.system(size: 45))
+                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                        .bold()
+                        .foregroundColor(.red)                }
+                Button(action: {
+                    audioPlayer.stop()
+                }) {
+                    Text("🛑")
+                        .font(.system(size: 45))
+                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                        .bold()
+                        .foregroundColor(.red)                }
+                
+                Button(action: {
+                    audioPlayer.pause()
+                }) {
+                    Text("⏸")
+                        .font(.system(size: 45))
+                        .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
+                        .bold()
+                        .foregroundColor(.red)                }
+
+            }
+        }
+        .onAppear {
+            let sound = Bundle.main.path(forResource: "song1", ofType: "mp3")
+            audioPlayer = try! AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+        }
+        
     }
 }
 
