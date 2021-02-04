@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A06E5EA225CB277500940320 /* snaill.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = A06E5EA125CB277500940320 /* snaill.jpeg */; };
 		A0A4BCFF25C9D29F00086A09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4BCFE25C9D29F00086A09 /* AppDelegate.swift */; };
 		A0A4BD0125C9D29F00086A09 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4BD0025C9D29F00086A09 /* SceneDelegate.swift */; };
 		A0A4BD0325C9D29F00086A09 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A4BD0225C9D29F00086A09 /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A06E5EA125CB277500940320 /* snaill.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = snaill.jpeg; path = ../../snaill.jpeg; sourceTree = "<group>"; };
 		A0A4BCFB25C9D29F00086A09 /* BasicMusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicMusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0A4BCFE25C9D29F00086A09 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A0A4BD0025C9D29F00086A09 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				A0A4BD0025C9D29F00086A09 /* SceneDelegate.swift */,
 				A0A4BD0225C9D29F00086A09 /* ContentView.swift */,
 				A0A4BD0425C9D2A000086A09 /* Assets.xcassets */,
+				A06E5EA125CB277500940320 /* snaill.jpeg */,
 				A0A4BD0925C9D2A000086A09 /* LaunchScreen.storyboard */,
 				A0A4BD0C25C9D2A000086A09 /* Info.plist */,
 				A0A4BD1325C9DED700086A09 /* song1.mp3 */,
@@ -143,6 +146,7 @@
 			files = (
 				A0A4BD0B25C9D2A000086A09 /* LaunchScreen.storyboard in Resources */,
 				A0A4BD1A25C9DEE300086A09 /* song3.mp3 in Resources */,
+				A06E5EA225CB277500940320 /* snaill.jpeg in Resources */,
 				A0A4BD0825C9D2A000086A09 /* Preview Assets.xcassets in Resources */,
 				A0A4BD0525C9D2A000086A09 /* Assets.xcassets in Resources */,
 				A0A4BD1425C9DED700086A09 /* song1.mp3 in Resources */,
